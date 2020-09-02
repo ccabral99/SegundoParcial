@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/camilacabral/CLionProjects/FINALprog3/Ejerc1/main.cpp
+../Pila.h
+/Users/camilacabral/CLionProjects/FINALprog3/Pila.h
+iostream
+-
+
+/Users/camilacabral/CLionProjects/FINALprog3/Nodo.h
+
+/Users/camilacabral/CLionProjects/FINALprog3/Pila.h
+Nodo.h
+/Users/camilacabral/CLionProjects/FINALprog3/Nodo.h
+
