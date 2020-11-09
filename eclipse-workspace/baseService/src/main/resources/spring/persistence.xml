@@ -10,10 +10,7 @@
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
         
         <!-- En este Bloque se agregan las clases del modelo que mapeamos -->
-        <class>ar.edu.ucc.arqSoft.baseService.model.State</class>
-        <class>ar.edu.ucc.arqSoft.baseService.model.Address</class>
-        <class>ar.edu.ucc.arqSoft.baseService.model.User</class>
-        
+     
         <class>ar.edu.ucc.arqSoft.baseService.model.Pelicula</class>
         <class>ar.edu.ucc.arqSoft.baseService.model.Socio</class>
         <class>ar.edu.ucc.arqSoft.baseService.model.Alquiler</class>
@@ -23,9 +20,9 @@
        		<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
        		
        		<!--- CONFIGURACION BASE DA DATOS, USER Y PWD -->
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/TEST" />
-            <property name="javax.persistence.jdbc.user" value="ucc" />
-            <property name="javax.persistence.jdbc.password" value="2-Uccwrite" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:8889/ucc" />
+            <property name="javax.persistence.jdbc.user" value="root" />
+            <property name="javax.persistence.jdbc.password" value="root"/>
             <!---  -->
             
             <property name="hibernate.show_sql" value="true"/>
